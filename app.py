@@ -11,7 +11,7 @@ API = os.environ.get("API_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Ассистент по лекциям", page_icon="🎓")
 st.title("🎓 Ассистент по лекциям")
-st.caption("Whisper — речь в текст · Qwen — конспект и ответы · E5 — поиск по смыслу")
+st.caption("Whisper - речь в текст · Qwen - конспект и ответы · E5 - поиск по смыслу")
 
 
 def call(path, **kwargs):
